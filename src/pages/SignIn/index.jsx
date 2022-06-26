@@ -92,6 +92,18 @@ const SignIn = () => {
             Sign In
           </Button>
           <Grid container>
+          {/* Login con Github */}
+            <Grid item xs={12}>
+              <h4>Login con GitHub</h4>
+              Well, hello there!
+              <p>
+                <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=9fbae9364e97e6c8ac5c">
+                  Login
+                </a>
+              </p>
+            </Grid>
+          </Grid>
+          <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
                 Forgot password?

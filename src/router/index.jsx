@@ -8,6 +8,7 @@ const Router = () => (
       <Route path={ROUTES.HOME} element={<HomeView />} />
       <Route path={ROUTES.ABOUT} element={<AboutView />} />
       <Route path={ROUTES.SIGN_IN} element={<SignInView />} />
+      <Route path={ROUTES.CALLBACK} element={<GitHubView />} />
     </Routes>
   </BrowserRouter>
 );
