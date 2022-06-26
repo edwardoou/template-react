@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomeView, AboutView, SignInView } from "../pages";
+import { HomeView, AboutView, SignInView, GitHubView } from "../pages";
 import * as ROUTES from "./routes";
 
 const Router = () => (
